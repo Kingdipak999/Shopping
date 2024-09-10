@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PROJECT</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            background-image: url('https://images.unsplash.com/photo-1621468635836-494461c17b64?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBuYXR1cmFsfGVufDB8fDB8fHww');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* 3D Shadow effect on all text */
+        h1, p {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for 3D look */
+        }
+
+        /* Container holding the content */
+        .container {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.4); /* Lighter overlay */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add box shadow for a 3D feel */
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Top header for READING NEPAL */
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ffcc00; /* Highlight color */
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Stronger shadow for more 3D effect */
+        }
+
+        /* Styling for the paragraph */
+        .upper-paragraph {
+            font-size: 2.5rem;
+            margin: 40px 0;
+            font-weight: 700;
+            line-height: 1.2;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for 3D look */
+        }
+
+        /* Button */
+        .button-container {
+            margin: 20px 0;
+        }
+
+        button {
+            font-size: 1.125rem;
+            height: 50px;
+            width: 200px;
+            background-color: #5a2a7b;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0 10px;
+            font-weight: 600;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Add button shadow */
+        }
+
+        button:hover {
+            background-color: #7b4d9a;
+            transform: scale(1.05);
+        }
+
+        /* Lower paragraph styling */
+        .lower-paragraph {
+            font-size: 1.125rem;
+            background-color: rgba(0, 0, 0, 0.5); /* Slightly darker background */
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px auto;
+            max-width: 800px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 3D shadow effect */
+            line-height: 1.6;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1.2s ease-out forwards;
+        }
+
+        /* Keyframe animation for fade-in effect */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            .upper-paragraph {
+                font-size: 2rem;
+            }
+
+            button {
+                font-size: 1rem;
+                width: 150px;
+            }
+
+            .lower-paragraph {
+                font-size: 1rem;
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2.5rem; /* Smaller size on mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .upper-paragraph {
+                font-size: 1.5rem;
+            }
+
+            button {
+                font-size: 0.875rem;
+                width: 120px;
+            }
+
+            .lower-paragraph {
+                font-size: 0.875rem;
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 2rem; /* Adjust for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top header with 3D text effect -->
+    <div class="header">
+        <h1>READING NEPAL</h1>
+    </div>
+
+    <div class="container">
+        <p class="upper-paragraph">Welcome to Our Web Page</p>
+        
+        <!-- Button that redirects to another link -->
+        <div class="button-container">
+            <button onclick="window.location.href='https://xhamster1.desi/videos/never-have-i-ever-xhBKrD7';">Click Here</button>
+        </div>
+        
+        <div class="lower-paragraph">
+            <p>Hello, this is Mr. Mani Chaurasia.</p>
+            <p>I am a teacher at Ram Chaurasiya Madhyamik Bidyalaya.</p>
+            <p>I have some important things to teach.</p>
+        </div>
+    </div>
+
+</body>
+</html>
